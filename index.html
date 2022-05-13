@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Julia Mignacca · Élections Législatives 2022 · 3ème circonscription de l'Hérault</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    :root {
+      --green: rgb(52, 173, 108);
+      --yellow: rgb(255, 236, 0);
+      --red: rgb(245, 59, 59);
+      --pink: rgb(248, 49, 160);
+      --purple: rgb(80, 37, 130);
+      --white: rgb(255, 255, 255);
+    }
+
+    .mignacca-banner {
+      display: flex;
+      height: 30vh;
+      background-image: url('./cover-background.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align: center;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .mignacca-banner img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .header {
+      min-height: 60px;
+      background-color: var(--green);
+      color: var(--white);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      font-size: 22px;
+      padding: 16px 0;
+    }
+
+    .content {
+      padding: 0 16px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.45em;
+    }
+
+    .highlight-1 {
+      font-weight: 900;
+      color: var(--green);
+      font-size: 21px;
+      letter-spacing: -0.03em;
+    }
+
+    .highlight-2 {
+      font-weight: 900;
+      color: var(--purple);
+      font-size: 21px;
+      letter-spacing: -0.03em;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <picture class="mignacca-banner">
+    <source srcset="./julia-mignacca.webp" type="image/webp">
+    <source srcset="./julia-mignacca.png" type="image/png">
+    <img src="./julia-mignacca.png">
+  </picture>
+  <header class="header">
+    <div class="content">CANDIDATE DE LA NOUVELLE UNION POPULAIRE ÉCOLOGIQUE ET SOCIALE</div>
+  </header>
+  <main class="content">
+    <p>Les 12 et 19 juin prochains ont lieu les élections législatives, le
+      troisième tour de l'élection présidentielle qui permettra d'élire vos
+      députés et de choisir le prochain gouvernement. À cette occasion la
+      gauche et les écologistes ont fait le choix historique de se présenter
+      unis devant vous dans tout le pays. Je suis la candidate de cette
+      nouvelle union sur notre 3ème circonscription de l'Hérault et j'en
+      mesure toute la responsabilité. Face au changement climatique et à
+      la casse du service public, ensemble nous pouvons gagner.</p>
+    <p class="highlight-1">Face à des politiques incapables de se renouveler, je serai une
+      députée intègre au service de l’intérêt général.</p>
+    <p class="highlight-2">Ensemble, construisons cet autre monde possible !</p>
+  </main>
+</body>
+
+</html>
